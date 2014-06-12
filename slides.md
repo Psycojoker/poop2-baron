@@ -309,8 +309,8 @@ Peut/pas de pub (première conf)
 
 # Infos
 
-* https://github.com/psycojoker/baron
-* https://github.com/psycojoker/redbaron
-* https://baron.readthedocs.org
-* https://redbaron.readthedocs.org
+* [https://github.com/psycojoker/baron](https://github.com/psycojoker/baron)
+* [https://github.com/psycojoker/redbaron](https://github.com/psycojoker/redbaron)
+* [https://baron.readthedocs.org](https://baron.readthedocs.org)
+* [https://redbaron.readthedocs.org](https://redbaron.readthedocs.org)
 * Moi: cortex@worlddomination.be
