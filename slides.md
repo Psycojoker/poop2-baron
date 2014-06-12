@@ -311,4 +311,6 @@ Peut/pas de pub (première conf)
 
 * https://github.com/psycojoker/baron
 * https://github.com/psycojoker/redbaron
+* https://baron.readthedocs.org
+* https://redbaron.readthedocs.org
 * Moi: cortex@worlddomination.be
