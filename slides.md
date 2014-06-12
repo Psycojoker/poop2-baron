@@ -114,7 +114,7 @@ Django (memopol et co):
 
 Autre project:
 
-    Générer du boilder plate en lisant des models de db
+    Générer du boiler plate en lisant des models de db
 
 ---
 
