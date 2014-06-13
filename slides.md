@@ -108,11 +108,11 @@ Pas lossless !
 
 # Génération de code
 
-Django (Memopol et co):
+Django (Memopol et co) :
 
     stuff.json -> models.py import.py
 
-Autre projet:
+Autre projet :
 
     Générer du boiler plate en lisant des models de db
 
