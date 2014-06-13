@@ -322,3 +322,4 @@ Peut/pas de pub (première conf)
 * [https://baron.readthedocs.org](https://baron.readthedocs.org)
 * [https://redbaron.readthedocs.org](https://redbaron.readthedocs.org)
 * Moi: cortex@worlddomination.be
+* Irc: irc.freenode.net#baron
