@@ -24,7 +24,7 @@ Si vous avez des questions de **compréhension**, n’hésitez pas !
 
 ---
 
-# Abstract Syntaxe Tree (AST)
+# Abstract Syntax Tree (AST)
 
 ![ast.png](ast.png)
 
@@ -275,8 +275,8 @@ Auto-formater du code Python
 
 # Présent
 
-2 core dev
-Peu/pas de pub (première conf)
+* 2 core dev
+* Peu/pas de pub (première conf)
 
 ## Baron
 
