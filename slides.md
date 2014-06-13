@@ -102,7 +102,7 @@ Pas lossless !
 
 (Commentaires, formatting)
 
-(Et ast\_to\_code n'existe même pas (bon, maintenant y a une lib inconnu qui fait ça)).
+(Et ast\_to\_code n'existe même pas (bon, maintenant y a une lib inconnue qui fait ça)).
 
 ---
 
@@ -114,7 +114,7 @@ Django (memopol et co):
 
 Autre project:
 
-    Générer du boilder plate en lisant des models de db
+    Générer du boiler plate en lisant des models de db
 
 ---
 
@@ -210,6 +210,10 @@ Auto formater du code python
 
 ---
 
+![refactoring2.png](refactoring2.png)
+
+---
+
 # Parenthèse: pyfmt
 
 ---
@@ -261,6 +265,10 @@ Auto formater du code python
 
 ---
 
+![refactoring3.png](refactoring3.png)
+
+---
+
 # Démo
 
 ---
@@ -309,6 +317,8 @@ Peut/pas de pub (première conf)
 
 # Infos
 
-* https://github.com/psycojoker/baron
-* https://github.com/psycojoker/redbaron
+* [https://github.com/psycojoker/baron](https://github.com/psycojoker/baron)
+* [https://github.com/psycojoker/redbaron](https://github.com/psycojoker/redbaron)
+* [https://baron.readthedocs.org](https://baron.readthedocs.org)
+* [https://redbaron.readthedocs.org](https://redbaron.readthedocs.org)
 * Moi: cortex@worlddomination.be
