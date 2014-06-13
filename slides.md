@@ -166,7 +166,7 @@ Auto-formater du code Python
 
 * +1000 tests (TDD)
 * marche sur le top 100 de pypi
-* utilities: position\_to\_path, position\_to\_node, boundinx\_box, walker etc...
+* utilities: position\_to\_path, position\_to\_node, boundinx\_box, walker, etc.
 * (encore quelques bugs ultra rares)
 
 ---
@@ -218,7 +218,7 @@ Auto-formater du code Python
 
 ---
 
-# Suffisant ?
+# Suffisant ?
 
 ---
 
@@ -280,14 +280,14 @@ Auto-formater du code Python
 
 ## Baron
 
-* entièrement documenté
-* version 0.2
+* Entièrement documenté
+* Version 0.2
 
 ## RedBaron
 
-* plus jeune
+* Plus jeune
 * +100 tests
-* entièrement documenté (plein d'exemples)
+* Entièrement documenté (plein d'exemples)
 * 0.1 d'hier
 
 ## Installation
@@ -302,8 +302,8 @@ Auto-formater du code Python
 * Baron déjà assez stable
 * Pub (haha)
 * Focus sur RedBaron
-* Commencer à rajouter de l'analyse de context dans redbaron ?
-* RedFlyingBaron pour éditer son code avec RedBaron ?
+* Commencer à rajouter de l'analyse de context dans RedBaron ?
+* RedFlyingBaron pour éditer son code avec RedBaron ?
 
 ---
 
