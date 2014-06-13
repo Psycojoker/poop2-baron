@@ -4,27 +4,27 @@
 
 # Avant de commencer
 
-* talk technique avancé (mais compréhensible)
+* Talk technique avancé (mais compréhensible)
 * Outil pour dev pour faire des outils pour dev
-* Problèmes pas forcement évident pour les débutants
+* Problèmes pas forcément évident pour les débutants
 
 
 Est-ce que tout le monde comprend quand je dis ?
 
 * Refactoring
-* Abstract Syntaxe Tree (AST)
+* Abstract Syntax Tree (AST)
 
-Si vous avez des questions de **comprehension** hésitez pas !
+Si vous avez des questions de **compréhension**, n’hésitez pas !
 
 ---
 
-# Refactoring (eclipse)
+# Refactoring (Eclipse)
 
 ![refactoring.png](refactoring.png)
 
 ---
 
-# Abstract Syntaxe Tree (AST)
+# Abstract Syntax Tree (AST)
 
 ![ast.png](ast.png)
 
@@ -33,14 +33,14 @@ Si vous avez des questions de **comprehension** hésitez pas !
 # Moi
 
 * Belgique
-* Code beaucoup trop (python (beaucoup), django, oueb, haskell, ...)
+* Code beaucoup trop (python (beaucoup), django, oueb, haskell…)
 * Tourisme des langages de programmation
 * Neutrinet (FFDN, Gitoyen)
 * La Quadrature du Net/Nurpa
-* UrLab (hackerspace à l'ULB/Bruxelles)/HSBxl (hackerspace à Bruxelles)
+* UrLab (hackerspace à l’ULB/Bruxelles)/HSBxl (hackerspace à Bruxelles)
 
 
-En beaucoup trop détailler:
+En beaucoup trop détaillé :
 [http://worlddomination.be/about/about.html](http://worlddomination.be/about/about.html)
 
 ---
@@ -63,7 +63,7 @@ En beaucoup trop détailler:
 # Refactoring custom
 
 * J'ai toujours voulu écrire du code pour modifier mon code
-* Très difficile: analyse, déplacement, trop de possibilités, syntaxe
+* Très difficile : analyse, déplacement, trop de possibilités, syntaxe
 * Frustrant, plein de cas où "ah, si seulement je pouvais scripter cette modification !"
 * Comme une blessure à la lèvre
 * Générer du code aussi
@@ -96,23 +96,23 @@ Super chiant, impossible à utiliser dans IPython efficacement.
 
 # Ast.py
 
-Pas lossless !
+Pas lossless !
 
     ast_to_code(code_to_ast(code_source)) != source_code
 
 (Commentaires, formatting)
 
-(Et ast\_to\_code n'existe même pas (bon, maintenant y a une lib inconnue qui fait ça)).
+(Et ast\_to\_code n’existe même pas (bon, maintenant y a une lib inconnue qui fait ça)).
 
 ---
 
-# Generation de code
+# Génération de code
 
-Django (memopol et co):
+Django (Memopol et co) :
 
     stuff.json -> models.py import.py
 
-Autre project:
+Autre projet :
 
     Générer du boiler plate en lisant des models de db
 
@@ -120,7 +120,7 @@ Autre project:
 
 # pythonfmt
 
-Auto formater du code python
+Auto-formater du code Python
 
 ---
 
@@ -130,14 +130,14 @@ Auto formater du code python
 
 ---
 
-# Refactoring en python
+# Refactoring en Python
 
 ![refactoring.png](refactoring.png)
 
 * BycleRepairMan
 * Rope (ast.py + regexs)
 * PyCharm (?)
-* Hyper dure: je suis en (x,y) dans un fichier, y a quoi autour de moi ?
+* Hyper dur : je suis en (x,y) dans un fichier, y a quoi autour de moi ?
 
 ---
 
@@ -159,15 +159,15 @@ Auto formater du code python
 
 * ast lossless ! (FST == Full Syntaxe Tree)
 * source == ast\_to\_code(code\_to\_ast(source))
-* transforme un problème d'analyse de code en parcours/modification d'un graph
+* transforme un problème d’analyse de code en parcours/modification d'un graph
 * output du json pour compatibilité maximum (+ structure de donnée simple)
 
-*1 an de boulot (j'ai du apprendre)*
+*1 an de boulot (j'ai dû apprendre)*
 
 * +1000 tests (TDD)
 * marche sur le top 100 de pypi
-* utilities: position\_to\_path, position\_to\_node, boundinx\_box, walker etc...
-* (encore quelques bugs ultra rare)
+* utilities: position\_to\_path, position\_to\_node, boundinx\_box, walker, etc.
+* (encore quelques bugs ultra rares)
 
 ---
 
@@ -214,19 +214,19 @@ Auto formater du code python
 
 ---
 
-# Parenthèse: pyfmt
+# Parenthèse : pyfmt
 
 ---
 
-# Suffisant ?
+# Suffisant ?
 
 ---
 
 # Problèmes
 
 * LossLess résolu
-* json une base cool, mais hyper chiant à utiliser -> comme du bytecode
-* besoin d'une abstraction cool à utiliser
+* JSON : une base cool, mais hyper chiant à utiliser -> comme du bytecode
+* Besoin d’une abstraction cool à utiliser
 
 ---
 
@@ -238,7 +238,7 @@ Auto formater du code python
 
 * Api au dessus du FST de Baron
 * Comme BeautifulSoup/Jquery
-* Pour l'humain, ~user friendly~ (pour certaines définition de user)
+* Pour l’humain, ~user friendly~ (pour certaines définitions de user)
 * Pensé, entre autre, pour être utilisé dans IPython (ou bpython)
 
 ---
@@ -275,19 +275,19 @@ Auto formater du code python
 
 # Présent
 
-2 core dev
-Peut/pas de pub (première conf)
+* 2 core dev
+* Peu/pas de pub (première conf)
 
 ## Baron
 
-* entièrement documenté
-* version 0.2
+* Entièrement documenté
+* Version 0.2
 
 ## RedBaron
 
-* plus jeune
+* Plus jeune
 * +100 tests
-* entièrement documenté (plein d'exemples)
+* Entièrement documenté (plein d'exemples)
 * 0.1 d'hier
 
 ## Installation
@@ -297,13 +297,13 @@ Peut/pas de pub (première conf)
 
 ---
 
-# Future
+# Futur
 
 * Baron déjà assez stable
 * Pub (haha)
 * Focus sur RedBaron
-* Commencer à rajouter de l'analyse de context dans redbaron ?
-* RedFlyingBaron pour éditer son code avec RedBaron ?
+* Commencer à rajouter de l'analyse de context dans RedBaron ?
+* RedFlyingBaron pour éditer son code avec RedBaron ?
 
 ---
 
@@ -311,7 +311,7 @@ Peut/pas de pub (première conf)
 
 ---
 
-# « Mec, t'es en train de coder le nouvel 'ed' du 21 ème siècle avec 4 niveaux d'abstractions en plus »<br>Hastake - Fin bourré
+# « Mec, t'es en train de coder le nouvel 'ed' du 21e siècle avec 4 niveaux d'abstractions en plus »<br>Hastake - Fin bourré
 
 ---
 
