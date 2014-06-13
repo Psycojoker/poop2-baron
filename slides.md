@@ -102,7 +102,7 @@ Pas lossless !
 
 (Commentaires, formatting)
 
-(Et ast\_to\_code n'existe même pas (bon, maintenant y a une lib inconnu qui fait ça)).
+(Et ast\_to\_code n'existe même pas (bon, maintenant y a une lib inconnue qui fait ça)).
 
 ---
 
@@ -210,6 +210,10 @@ Auto formater du code python
 
 ---
 
+![refactoring2.png](refactoring2.png)
+
+---
+
 # Parenthèse: pyfmt
 
 ---
@@ -258,6 +262,10 @@ Auto formater du code python
 
     red.string.value = "'Hello from RedBaron!'"
     red  # print 'Hello from RedBaron!'
+
+---
+
+![refactoring3.png](refactoring3.png)
 
 ---
 
